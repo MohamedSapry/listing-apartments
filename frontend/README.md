@@ -68,8 +68,8 @@ npm install
 
 2. Set up environment:
 ```bash
-# Create .env.local file
-NEXT_PUBLIC_API_BASE_URL=http://localhost:3001/api
+# Copy the example file and edit as needed
+cp env.example .env.local
 ```
 
 3. Start development server:

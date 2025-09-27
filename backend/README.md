@@ -74,9 +74,8 @@ npm install
 
 2. Set up environment:
 ```bash
-# Create .env file
-DATABASE_URL="postgresql://user:password@localhost:5432/apartment_listing"
-PORT=3001
+# Copy the example file and edit as needed
+cp env.example .env
 ```
 
 3. Setup database:
